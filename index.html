@@ -14,14 +14,52 @@
     </p>
     <ul>
         <li>
-            <a href="Recipes/recipe.template.html">Template</a>
+            <a href=".template/recipe.template.html">Template</a>
         </li>
         <li>
-            <a href="Recipes/lasagna.html">Pancake Lasagna</a>
+            <a href="Recipes/lasagna.html">No Noodle Lasagna</a>
         </li>
         <li>
-            <a href="Recipes/Bannana Bread.html">Bannana Bread</a>
+            <a href="Recipes/Banana Bread.html">Banana Bread</a>
         </li>
+		<li>
+			<a href="Recipes/CoffeeCake.html">Simple Coffee Cake</a>
+		</li>
     </ul>
+    <h2>
+        Adding Recipes
+    </h2>    
+    <h3>Make a template file</h3>
+    <p>
+        In the terminal, enter the following:
+    </p>
+    <ol>
+        <li>
+            cd  /data/GitHub/odin-recipies/Recipes
+        </li>
+        <li>
+            cp /data/GitHub/odin-recipies/.template/recipe.template.html /data/GitHub/odin-recipies/Recipes/template.html
+        </li>
+        <li>
+            ls /data/GitHub/odin-recipies/Recipes/template.html
+        </li>
+    </ol>
+    <p>
+        If the return is the same as the input on the last step, success!  We now change the name of the file template.html 
+        to the name of your recipe.<p>
+<h3>Rename the template.html file</h3>
+    </p>
+        $ mv template.html Recipe_Name.html
+    </p>
+    <h3>Edit link in index.html</h3>
+    <p>
+        Edit the file ../index.html so the link in the Recipes list points to the new file
+    </p>
+        Edit the new recipe file and be sure the 'return to index' link works.
+
+<h3>To do:</h3>
+    <p>
+        Make button to query for recipe name, then make template and link with boilerplate filled out
+    </p>
 </body>    
 </html>
