@@ -1,0 +1,5 @@
+# files to ignore.  see man gitignore
+
+.source
+.work
+

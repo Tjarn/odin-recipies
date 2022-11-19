@@ -3,7 +3,7 @@
 I created this repo as part of the odin project lesson 'recipies'
 in the course called 'foundations'.
 
-I just 'celebrated' my 80th birthday and ran across this site.  I've
+I just passed by my 80th birthday and ran across this site.  I've
 been a proponent of open source since the early 1990's and celebrated
 when Linux jumped from version 0.92 to 1.0.0.  
 
@@ -29,4 +29,26 @@ Oh, If you find something useful here, you're welcome to it under GPL3.
 
 Morgan Hall
 11/17/2022
+
+Darn it, my assignment is to write a little recipe app that I would actually
+use.  It would do well on my tablet and that would be easy to refer to in
+the kitchen.  May as well try to get it hacked together asap.
+
+I'll journal the thing in the commit messages on git.  So here I've made
+three directories.  .source (to hold things while I pick at them) .template (to hold the actual template out of sight) and .work so I can try stuff out.
+
+I want git to ignore the .work and .source directories, so I wrote a .gitignore file.
+---------------------------------------------
+# files to ignore.  see man gitignore
+
+.source
+.work
+---------------------------------------------
+11/18/2022
+
+
+
+
+
+
 
