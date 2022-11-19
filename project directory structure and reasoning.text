@@ -1,0 +1,27 @@
+
+                        Directory Structure 
+                               of the 
+                      Recipies assigned project 
+                              for the 
+                odin project foundations course
+               
+                            11/19/2022
+
+odin-recipies | index.html
+              | README.md == Journal.md
+              | LICENSE
+            --| recipes | Banana_Bread.html 
+                        | CoffeeCake.html 
+                        | lasagna.html
+                        |    ...
+                        |
+                      --| resources | index.html =symbolic= ../index.html (template link)
+                                    |
+                                  --| templates | recipe.template.html
+                                    |           | ...
+                                    |
+                                    |
+                                  --| graphics  | lasagna.jpeg 
+                                                | mochi.jpg
+                                                | ...
+
