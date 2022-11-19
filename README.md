@@ -1,28 +1,37 @@
-# odin-recipies   README == Journal
+# odin-recipies
 
-Welcome stranger.  This file is my personal journal of my odin project
-Foundations class.  And plans can, and do, change.  Current plan is to 
-have this as a header and below the ### line roll down with journal entries.
-Also, separate entries with ----------------- lines.
-###########################################################################
 
----------------------------------------------------------------------------
 
-This is my first journal entry after setting up the file structure here.
-It's in a GitHub repo set up as part of the odin project Foundations course.
+--------------------------------------------------------------------
+11/19/2022 
 
-It's also a good chance to play around with stuff without much personal expense
-as life on a fixed income takes some planning.
+I've worked out a directory structure that looks good.  Moved stuff around
+and got the links pointed directly.  Oh, I need a requirements document.
 
-I learned something today.  GitHub can publish this repo as a web page. It even worked last night.  Today it did not.  Ran down the engine (Jeykill it seems)
-won't publish dotfiles (filenames starting with a dot).  In order to keep my
-top app directory sparse, I'd stored a template in a file .templates. Sigh.
+I need to check my tasks list.
 
-And I think I need to have a reference in the index.html file.  It might be
-good practice for me.
+A problem I have is slowing down the rush of ideas.  One leads to three,
+thirteen, thirty-three in a pleasurable rush as the multi dimensional 
+sphere expands and the magpie mind races frantically collecting the
+sparking bits as the treasures they somethimes can prove to be.
 
-11/19/2022
-----------------------------------------------------------------------------
+One suggestion that I'm going to try is to keep a journal.  I've tried
+before and I hope I try again.  Well, better that I succeed this time.
+
+This is about halfway through the odin project's Foundations class.
+I'll set my success as journalling the remainder of the class.  I'll 
+exclude ramblings from outside this period -- perhaps collect 'em someday
+but for this period, all my journal type notes will go in here.
+
+current plans:
+
+Somehow link to this from index.html so I can be reminded to update this
+journal.  Oh, and hard link README.md to Journal.md
+
+
+The following was written here a couple of days ago.  Some things have
+been proven right, some wrong.
+--------------------------------------------------------------------------
 
 I created this repo as part of the odin project lesson 'recipies'
 in the course called 'foundations'.
