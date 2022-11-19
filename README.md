@@ -8,3 +8,6 @@ when the class is finished.
 
 The jounal-type stuff I had here is in DOC/Journal.md
 
+This is a work in progress. It's raw HTML and I'm just starting the
+CSS section.
+
