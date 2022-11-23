@@ -1,0 +1,20 @@
+/* styles.css */
+
+* { 
+    background-color: lemonchiffon;
+}
+
+p {
+    font-size: 14px;
+    color:black;
+}
+
+button.untested {
+    color: rgb(6, 6, 38);
+    background-color: rgb(228, 191, 218);
+}
+
+.tested {
+    color:rgb(4, 59, 22);
+    background-color: lightseagreen;
+}
