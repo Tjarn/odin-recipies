@@ -3,7 +3,11 @@
     background-color: rgb(228, 180, 170);
 }
 
-img {
-    width: 50;
-    height: auto;
+button {
+    color: darkblue;
+    background-color: lightgreen;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+    margin: 20 px;
 }
