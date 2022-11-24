@@ -1,4 +1,7 @@
 /* recipes.css  css for recipes */
+* {
+    background-color: rgb(228, 180, 170);
+}
 
 img {
     width: 50;

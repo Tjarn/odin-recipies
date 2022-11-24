@@ -25,36 +25,56 @@ odin-recipies
                     |- mochi.jpg
 -->
 <html lang="en">
-<head>                                                                                          
-    
+<head>                                                                                              
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Recipes</title>
-
     <link rel = "stylesheet" href = "styles.css">
-
-
 </head>
 <body>
-
-
     <h1>Recipes</h1>
     <p>
-        My intent is to collect recipies for one or two people.  Most recipes
-        are from four to six.  I will test and comment on them as I go.
+        This recipe collection is for recipes that I have found interesting enough
+        to add to it.  I'm mostly interested in recipes that are for one or two people and 
+        that are easily made in or adapted to air frying or baking in my 
+        air-fryer/convection oven.  I don't need to risk hot fat burns from deep 
+        frying.
+    </p>
+    <p>
+        I'll try to keep notes on the recipes that I make and I'll try to update recipes
+        as I go.  See the notes on the recipes to see what I've rememered to, or 
+        found time to update.
+
+    </p>
+    <p>
+        This is definitely a work in progress.  I'm keeping it under a revision
+        control system (git on GitHub) so if I mess up anything, I'll try to revert
+        and get back what works. Or at least have a fighting chance to do so.
+    </p>
+    <p>How to reach me:
+        reverse the name and domain and e-mail me. 
+            wavecable.com@morganh
+        which should mess up dumb robots and let smart ones and people through. 
+    </p>
+    <p>
+        If a robot is smart enough to email, I'll converse, but won't buy anything.
     </p>
         
+    <p>
+        With that, Here's what I have so far.  I'll probably have to add categories
+        later, but this is early days.
+    </p>
     
     <ul>
         <li>
             <button class="tested">
-                <a href="./recipes/Doughnuts.html">Doughnuts</a>
+                <a href="./recipes/air-fry_donuts.html">Air-Fry Donuts</a>
             </button>
         </li>
         <li>
             <button class="untested">
-                <a href="./recipes/lasagna.html">Crepe Lasagna</a>
+                <a href="./recipes/lasagna.html">Pasta-Free Lasagna</a>
             </button>
         </li>
         <li>
@@ -75,43 +95,90 @@ odin-recipies
     </ul>
 
 
-<h2>
-        Adding Recipes
-    </h2>    
-    <h3>Make a template file</h3>
-    <p>
-        In the terminal, enter the following:
-    </p>
-    <ol>
+<h2>Adding Recipes</h2>    
+    
+    This section is for my future self, so I don't have to refigure out what hooks to what.
+    Here's the steps I use, more or less as I learn more.
+
+    <ol class="Instructions">
+
         <li>
-            cd  /data/GitHub/odin-recipies/Recipes
+    
+    <h3>Copy the recipe template file to the recipes directory.</h3>
+
+    <p>
+        The recipe template file is in the file 
+        Recipes/recipes/resources/templates/recipe.template.html
+        The file 'index.html' is the root file of this document.  The recipe file itself
+        is in the Recipes/recipe directory.
+    </p>
         </li>
         <li>
-            cp /data/GitHub/odin-recipies/.template/recipe.template.html /data/GitHub/odin-recipies/Recipes/template.html
-        </li>
-        <li>
-            ls /data/GitHub/odin-recipies/Recipes/template.html
-        </li>
-    </ol>
-    <p>
-        If the return is the same as the input on the last step, success!  We now change the name of the file template.html 
-        to the name of your recipe.<p>
-<h3>Rename the template.html file</h3>
-    </p>
-        $ mv template.html Recipe_Name.html
-    </p>
-    <h3>Edit link in index.html</h3>
-    <p>
-        Edit the file ../index.html so the link in the Recipes list points to the new file
-    </p>
-        Edit the new recipe file and be sure the 'return to index' link works.
 
-<h3>To do:</h3>
+    <h3>Give the File a Descriptive Name</h3>
     <p>
-        Make button to query for recipe name, then make template and link with boilerplate filled out
-    </p> -->
+        Name your new file whatever name you want to access it from the main document.
+        I prefer a descriptive name, because I browse directories and like to know what
+        I'm looking at.  I can imagine a tool, however, that would let me seek what kind
+        of file is is as well as a way to quick preview the front, rear, and spots in between.
+    </p>
+    </li>
 
+    
 
+    <h3>Off-Topic Digression</h3>
+    <p>
+        OK, grasshopper mind in action.  I think I'll put this off to one side, here.       
+    </p>
+<h4>project idea</h4>
+<p class="Project Idea"></p>
+grasshopper mind again -- my idea is to document my ideas as I work, tagging them with the 
+class 'Project Idea'  That would give me something to look for and  might keep them
+from printing, or setting them off to not interfere with the function of the document.
+<p class="Project Idea">
+The idea that started this:  I can imagine a tool, however, that would let me seek what kind
+of file is is as well as a way to quick preview the front, rear, and spots in between.
+--- 
+A file explorer that is like a shell window (cli for young'ns) with buttons
+to popup Unix file type, text display of head, tail, and random within body, precise within body.
+cli or gooey like cli. -- ok, written down, let me get back to this later.
+    </p>
+    <p>
+        Your file  is sensibly named?
+    </p>
+    <li>
+   <h3>Test Template File in Browser</h3>
+   <p>
+    The template file has the html boilerplate it needs, and run from the Recipes/recipes directory has the links 
+    for the home page installed.  
+   </p>     
+   <p>
+    You should observe that the page stying is correct on the template file.  Don't test the buttons to the index
+    until you're ready to edit the Recipes/index.html file, as there are no links back until you create them.
+   </p>
+    </li>
+    <li>
+    <h3>Link From Index to File </h3>
+    <p>
+
+        The home index file is in the directory above this so links from here will go to "../index.html" and links
+        from that directory will go to "./recipes/my_sensible_file_name" to your sensibly named file in the 
+        Recipies index.html directory.
+    </p> 
+</li>
+<li>
+    <h3>
+        Create Link from Home index.html
+    </h3>
+    Make a link <div style ="font-weight: bolder;">from</div> the home index file 
+    <div style ="font-weight: bolder;">to</div> your sensibly-named file in the recipes
+    directory.
+</li>
+</ol>
+    That should be enough.
+    <h3>
+        
+    </h3>
 
 
 </body>    
