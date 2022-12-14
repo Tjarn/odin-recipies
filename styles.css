@@ -5,16 +5,39 @@
 }
 
 p {
-    font-size: 14px;
+    font-size: 18px;
     color:black;
+
+}
+
+button {
+    border:1px solid black;
+    border-radius: 16px;
+    
 }
 
 button.untested {
-    color: rgb(6, 6, 38);
-    background-color: rgb(228, 191, 218);
+    color: darkred;
+    background-color: lightpink;
 }
 
-.tested {
-    color:rgb(4, 59, 22);
-    background-color: lightseagreen;
+button.tested {
+    padding: 10;
+    color:black;
+    background:lightseagreen
+}
+
+a {
+    text-decoration: none;
+    background: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 900;
+    font-size:22px;
+    padding:10px;
+   
+}
+
+li {
+    list-style: none;
+     margin: 10px;
 }

@@ -1,5 +1,13 @@
 # odin-recipies
 
+12/12/2022
+
+I've learned a lot on this project. I could probably take it apart and put
+it back together better, but this is done, and OK.
+
+Now to add a recipe and link it in.
+
+
 -------------------------------------------------------------------
 November 19, 2022
 I've got a skeleton of a little website here, but it might make a useful
