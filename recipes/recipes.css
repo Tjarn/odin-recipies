@@ -5,10 +5,27 @@
 
 button {
     color: darkblue;
-    background: none;
+    background: lightseagreen;
+    border-radius: 16px;
     font-size: 22px;
     
     font-weight: 900;
     padding: 10px;
     margin: 20 px;
+}
+
+a {
+    color: darkblue;
+    background: lightseagreen;
+}
+
+.multi-recipes-box {
+    /* border:2px solid black; */
+    display: flex;
+    justify-content: flex-start;
+}
+
+.recipe-box {
+    margin-left: 50px;
+    margin-right: 200px;
 }
